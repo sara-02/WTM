@@ -54,6 +54,9 @@ If you are an experienced developer and prefer not to use Docker, you may instal
 # Exercise instructions
 Finished installing? Great! Preview the [exercise](markdown/exercises.md) instructions.
 
+## Slides
+Here's a link to the [slides](https://goo.gl/kJQfXe).
+
 <a name="next"></a>
 # Next steps
 
