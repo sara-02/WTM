@@ -26,7 +26,7 @@ If you run these commands on the terminal connected to the running docker contai
 you will see an example script you can use to run Fast Style Transfer on an image. Here's what it looks like:
 
 ```
-python evaluate.py --checkpoint /workshop/fast-style-transfer/models/udnie.ckpt --in-path /workshop/sample_images/basset.jpg --out-path /workshop/shared/basset_stylized.jpg
+python evaluate.py --checkpoint /workshop/fast-style-transfer/models/udnie.ckpt --in-path /workshop/sample-images/basset.jpg --out-path /workshop/shared/basset_stylized.jpg
 ```
 
 And here are the arguments:
