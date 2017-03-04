@@ -23,7 +23,7 @@ If you run these commands on the terminal connected to the running docker contai
 # cat fast_style.sh
 ```
 
-you will see an example script you can use to run Fast Style Transfer on an image. Here's what it looks like (but, no need to run this command now, we will do so in a moment below).
+you will see an example script you can use to run Fast Style Transfer on an image. Here's what it looks like (but, no need to run this command now, we will do so in a moment, below):
 
 ```
 cd /workshop/fast-style-transfer
