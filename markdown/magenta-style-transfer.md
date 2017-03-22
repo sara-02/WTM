@@ -57,7 +57,7 @@ You can also blend styles using a weighted combination. This enables you to spec
 For example:
 
 ```
--- which_styles="{0:0.5,31:0.5}
+-- which_styles="{0:0.5,31:0.5}"
 ```
 
 Notice the format for this argument is a Python dictionary of Style -> Weight.
