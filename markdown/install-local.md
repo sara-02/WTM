@@ -46,10 +46,14 @@ Above, we're creating a directory called ```shared``` inside your home folder. F
 
 In this step, we'll start the container. We'll use command line arguments to mount your shared directory, and to open a port we'll need later. Run this command:
 
+For SELinux enabled systems, before running the docker command do:
 ```
-$ docker run -it -p 8888:8888 -v ~/shared:/workshop/shared randomforests/wtm:v1
+sudo set enforce 0
 ```
 
+``` 
+$ docker run -it -p 8888:8888 -v ~/shared:/workshop/shared randomforests/wtm:v1
+```
 Long command, right? Here's an explanation of the arguments.
 
 * ```-v ~/shared:/workshop/shared``` mounts ```~/shared``` on your laptop as ```/workshop/shared``` inside the container.
